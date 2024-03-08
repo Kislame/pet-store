@@ -1,0 +1,34 @@
+.products-wrapper {
+  margin-top: 4rem;
+  width: min(80%, 1200px);
+  margin: 5rem auto;
+  padding-top: 2rem;
+}
+.products-wrapper h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  gap: 60px;
+  text-align: center;
+}
+
+.product img {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+}
+.product p {
+  font-size: 0.8rem;
+  color: rgb(118, 118, 118);
+}
+@media screen and (width<769px) {
+  .products {
+    gap: 30px;
+  }
+}

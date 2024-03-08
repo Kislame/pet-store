@@ -1,0 +1,86 @@
+.hero {
+  display: grid;
+
+  grid-template-columns: 60% 1fr;
+  min-height: calc(100vw- 74px);
+  gap: 40px;
+
+  width: min(80%, 1200px);
+  margin: 0 auto;
+  margin-top: 2rem;
+
+  place-items: center;
+}
+
+.hero-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-img {
+  border: transparent;
+  border-radius: 50px 5px 50px 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  background-color: orange;
+}
+
+.hero-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #f09819 0%,
+    #edde5d 51%,
+    #f09819 100%
+  );
+  margin-top: 1rem;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: var(--bg-dark);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  width: fit-content;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .hero {
+    grid-template-columns: 1fr;
+    place-content: center;
+    width: 90vw;
+  }
+  .hero-intro {
+    align-items: center;
+    text-align: center;
+    padding: 1.2em;
+  }
+  .hero-intro > h1 {
+    font-size: 24px;
+  }
+  .hero-img {
+    height: 360px;
+    width: 320px;
+    border-radius: 50%;
+    border: transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .btn-grad {
+    font-size: 15px;
+    padding: 15px 35px;
+  }
+}
