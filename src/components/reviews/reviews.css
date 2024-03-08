@@ -1,6 +1,7 @@
 .reviews-wrapper {
   width: min(80%, 1200px);
-  margin: 3rem auto;
+  margin: 0 auto;
+  margin-top: 150px;
 }
 .reviews-wrapper h2 {
   margin-bottom: 2rem;

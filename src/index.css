@@ -113,3 +113,39 @@ button:focus-visible {
     color: #ffffff;
   }
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  .fade-in {
+    animation: fade-in linear 1s forwards;
+    animation-timeline: view();
+
+    opacity: 0;
+
+    /*
+    forwardzsz keyword keeps the image at the last state of animation
+    view(x y) x means its ends when we ware x px away from top 
+    y means it starts at y pixels away from the bottom
+     
+    
+     animation-range-start: 250px away from the bottom /cover/contain
+  // cover start when element enter viewport
+  // containt start when viewport contain the image
+  animation-range-end: 500px away from the bottom
+  //contain in bottom means when top of elment corss top of viewport
+  */
+    animation-range-start: 400px;
+    animation-range-end: contain 200px;
+  }
+
+  @keyframes fade-in {
+    25% {
+      opacity: 0.5;
+    }
+    80% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}

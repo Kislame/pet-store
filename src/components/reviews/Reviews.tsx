@@ -1,15 +1,12 @@
 import './reviews.css';
 const Reviews = () => {
   return (
-    <section className="reviews-wrapper">
+    <section className="reviews-wrapper ">
       <h2>Reviews</h2>
       <div className="reviews">
         <article>
           <div className="article-img-wrapper">
-            <img
-              src="https://plus.unsplash.com/premium_photo-1673710478798-bc9781856eca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGh1Z2dpbmclMjBhJTIwZG9nfGVufDB8fDB8fHww"
-              alt="review one"
-            />
+            <img src="/assets/images/person-1-op.jpeg" alt="review one" />
           </div>
           <Star />
 
@@ -24,10 +21,7 @@ const Reviews = () => {
         </article>
         <article>
           <div className="article-img-wrapper">
-            <img
-              src="https://plus.unsplash.com/premium_photo-1664357541653-5041b80e2df5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGh1Z2dpbmclMjBhJTIwZG9nfGVufDB8fDB8fHww"
-              alt="review one"
-            />
+            <img src="/assets/images/person-2-op.jpeg" alt="review one" />
           </div>
           <Star />
           <blockquote>
@@ -42,10 +36,7 @@ const Reviews = () => {
         </article>
         <article>
           <div className="article-img-wrapper">
-            <img
-              src="https://plus.unsplash.com/premium_photo-1700403545687-33f7e490a7de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fGh1Z2dpbmclMjBhJTIwZG9nfGVufDB8fDB8fHww"
-              alt="review one"
-            />
+            <img src="/assets/images/person-3-op.jpeg" alt="review one" />
           </div>
           <Star />
           <blockquote>

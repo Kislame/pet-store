@@ -3,6 +3,7 @@ import Seo from '../components/Seo';
 import Hero from '../components/Hero';
 import Products from '../components/products/Products';
 import Reviews from '../components/reviews/Reviews';
+import Location from '../components/location/Location';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <Hero />
         <Products />
         <Reviews />
+        <Location />
       </main>
     </>
   );

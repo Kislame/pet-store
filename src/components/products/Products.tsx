@@ -34,7 +34,7 @@ const Products = () => {
     },
   ]);
   return (
-    <section className="products-wrapper">
+    <section className="products-wrapper fade-in">
       <h2>Our Services</h2>
       <div className="products">
         {data.map((item, index) => (
