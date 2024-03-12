@@ -6,7 +6,7 @@ const Reviews = () => {
       <div className="reviews">
         <article>
           <div className="article-img-wrapper">
-            <img src="/assets/images/person-1-op.jpeg" alt="review one" />
+            <img src="./assets/images/person-1-op.jpeg" alt="review one" />
           </div>
           <Star />
 
@@ -21,7 +21,7 @@ const Reviews = () => {
         </article>
         <article>
           <div className="article-img-wrapper">
-            <img src="/assets/images/person-2-op.jpeg" alt="review one" />
+            <img src="./assets/images/person-2-op.jpeg" alt="review one" />
           </div>
           <Star />
           <blockquote>
@@ -36,7 +36,7 @@ const Reviews = () => {
         </article>
         <article>
           <div className="article-img-wrapper">
-            <img src="/assets/images/person-3-op.jpeg" alt="review one" />
+            <img src="./assets/images/person-3-op.jpeg" alt="review one" />
           </div>
           <Star />
           <blockquote>

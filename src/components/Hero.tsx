@@ -19,7 +19,7 @@ const Hero = () => {
       </div>
       <div className="hero-img">
         <img
-          src="/assets/images/dog-op.jpeg"
+          src="./assets/images/dog-op.jpeg"
           alt="dog wearing pajams"
           loading="lazy"
         />
